@@ -20,7 +20,7 @@ header {
     color: #b30505;
     font-size: 50px;
     display: flex;
-    justify-content:center;
+    justify-content: center;
 
 }
 
@@ -30,7 +30,12 @@ header {
     align-items: center;
     font-family: "medium500";
 }
-
+.enlace1 {
+  color: #cb2616;
+}
+.enlace1 :hover{
+  color:#830707;
+}
 
 .imagnav { 
     width: 150px; height: 150px;
@@ -50,6 +55,10 @@ h1 {
 h2 {
     font-family: "medium500";
 }
+.title2 {
+  display: flex;
+  justify-content: center;
+}
 
 p 
 {
@@ -58,9 +67,19 @@ p
 }
 
     body {
-    background-image: url(../images/fondo.png);
-    image-rendering: auto;
-    background-attachment: unset;
+    background-color: #ced2cc ;
+}
+
+.card {
+  background-color: #282828;
+}
+.card-title {
+  color: #f8f8ff;
+}
+
+.tarjetas-episodios {
+  display: flex;
+  justify-content: space-between;
 }
 
 form {

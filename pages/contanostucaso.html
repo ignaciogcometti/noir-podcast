@@ -1,32 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>contanostucaso</title>
 
-<link rel="stylesheet" href="../style/style.css">
+    <html lang="en"></html>
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Noir Podcast</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style/style.css">
+    <script src="https://kit.fontawesome.com/433bd8e367.js" crossorigin="anonymous"></script>
 
-</head>
+    <!--pongo <link:css enter para que se vincule el html con el archivo de css-->
+
+    <title>Noir Podcast Prime</title></head>
 <body>
 
 <Header>
 
-        <H1 class="title1">Noir Podcast</H1>
-        
-</Header>
+        <H1 class="title1">Noir Podcast</H1></Header>
+        <ul class="nav justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link enlace1" href="https://open.spotify.com/show/4Zh3EAkonYf5VmrE48i13p"><i class="fa-brands fa-spotify"></i>Spotify</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link enlace1" href="https://www.instagram.com/noir.podcast/"><i class="fa-brands fa-instagram"></i>Instagram</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link enlace1" href="https://cafecito.app/noirpodcast"><i class="fa-solid fa-mug-hot"></i>Cafecito</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link enlace1"  href="https://www.tiktok.com/@noirpodcast"><i class="fa-brands fa-tiktok"></i>TikTok</a>
+          </li>
+        </ul>
 
 <nav class="navbar">
 
 <a href="../index.html"><img class="imagnav" src="../images/logofinal.png" alt="noir podcast"></a>
 
-<a href="../pages/temporada1.html">Temporada 1</a>
-<a href="../pages/temporada2.html">Temporada 2</a>
-<a href="../pages/temporada3.html">Temporada 3</a>
-<a href="../pages/contanostucaso.html">Contanos Tu Caso</a>
+<a href="../pages/temporada1.html" class="enlace1" >Temporada 1</a>
+<a href="../pages/temporada2.html" class="enlace1" >Temporada 2</a>
+<a href="../pages/temporada3.html" class="enlace1">Temporada 3</a>
+<a href="../pages/contanostucaso.html" class="enlace1">Contanos Tu Caso</a></nav>
 
-</nav>
+<h2 class="title2">Principales casos de la temporada</h2>
 
 <h1>Nos interesa tu opinion</h1>
 
@@ -52,6 +67,28 @@
 <!-- si no estamos en el index y queremos que nos lleve a el, en las rutas, 
 va doble .. y hay que buscarlo no . punto solo, no te lo toma-->
 
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 </html>
+
+<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./images/filo.jpg"  width="1080px" height="1920px" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./images/nahirfoto.png"  width="1080px" height="1920px" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./images/jorgepost.png" width="1080px" height="1920px" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
