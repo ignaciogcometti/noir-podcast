@@ -1,0 +1,32 @@
+.bannerindex {
+    max-width: 100%;
+    & :hover{
+        transform: scale(1.1);
+        transition: all 5s;
+    }
+}
+
+.articuloi__img{
+    max-width: 100%;
+    & :hover {
+        transform: scale(1.1);
+        transition: all 5s; 
+        }
+    }
+
+.articulo__img{
+    max-width: 100%;
+    & :hover {
+        transform: scale(1.1);
+        transition: all 5s; 
+    }
+}
+
+
+.art-galeria{
+    transition: 3s;
+    & :hover{
+        width: 320px;
+        height: 320px;
+    }
+}

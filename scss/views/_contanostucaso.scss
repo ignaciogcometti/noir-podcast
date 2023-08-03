@@ -1,0 +1,116 @@
+.bannercontacto {
+    max-width: 100%; }
+.bannercontacto:hover{
+    transform: scale(1.1);
+    transition: all 5s;
+}
+#section1-contacto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-weight: bold;
+    background-color: rgba(50, 50, 40, 0.872);
+    .contactenos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 3rem;
+        color: #fff;
+    }
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 100px;
+        background-color: #fff;
+        margin-bottom: 3rem;
+        .form-control {
+                height: 36px;
+                background: #fff;
+                color: rgba(0, 0, 0, 0.8);
+                font-size: 14px;
+                border-radius: 2px;
+                box-shadow: none;
+                border: 1px solid rgba(0, 0, 0, 0.1);
+                &:focus, &:active {
+                border-color: rgba(132, 132, 132, 0.872);
+                border-radius: 5;
+                }
+            }
+            .form-label {
+                color: rgba(50, 50, 40, 0.872);
+                text-transform: uppercase;
+                font-size: 12px;
+                font-weight: 700;
+                margin-bottom: 0.5rem; 
+            }
+            .btn.btn-primary {
+                margin-top: 1rem;
+                margin-bottom: 1rem;
+                background: rgba(132, 132, 132, 0.872);
+                border-color: rgba(83, 83, 69, 0.872);
+                color: #fff;
+                width: 100px;
+                height: 50px;
+                border-radius: 5;
+            &:hover {
+                background-color: rgba(50, 50, 40, 0.872);
+                }
+        }
+    }
+}
+
+            @media only screen and (max-width: 600px) {
+                .container {
+                width: 100%;
+                padding-bottom: 20px;
+                }
+            }
+
+#map{
+    @include flex;
+    padding: 0 1rem;
+    background-color: #fff;
+    .grupo-map{
+        .ubicacion{
+            color: rgba(50, 50, 40, 0.872);
+            background-color: #fff;
+            @include flex;
+            padding-top: 30px;
+            margin-bottom: 1rem;
+            max-width: $max-with;
+            .map{
+                @include flex;
+            max-width: 1200px; 
+            }
+        }
+    }
+}
+
+#contact{
+    @include flex;
+    padding: 0 1rem;
+    background-color: rgba(50, 50, 40, 0.872);
+    .info {
+        width: 100%;
+        padding: 20px;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        align-items: center;
+        h2 {
+            color: #fff;
+            margin-bottom: 1rem;
+        }
+        p {
+            color: #fff;
+            font-weight: lighter;
+        }
+        i {
+            margin-right: 10px;
+            color: #fff;
+        }
+    }
+}
