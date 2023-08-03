@@ -1,0 +1,28 @@
+// imports
+@import "./utilities/mixins";
+@import "./utilities/variables";
+
+//import reserts
+@import "./globals/reserts";
+
+//import components
+@import "./components/wpp";
+
+// import layouts
+@import "./layouts.scss/header";
+@import "./layouts.scss/footer";
+@import "./layouts.scss/main";
+@import "./layouts.scss/animaciones";
+
+// import views
+@import "./views/index";
+@import "./views/reservas";
+@import "./views/contacto";
+@import "./views/galeria";
+@import "./views/experiencias";
+
+
+
+
+
+

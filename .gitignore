@@ -1,7 +1,5 @@
-.ds_store
+node_modules/
 
-img_cache
+.vscode/
 
-*txt
-
-background.jpp
+.DS_Store/

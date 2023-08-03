@@ -1,0 +1,78 @@
+#footer {
+    width: 100%;
+    background-color: rgba(155, 155, 154, 0.358);
+    grid-column: 1 / 13;
+    grid-row: 11 / 13;
+    .grupo-1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+    .box {
+        figure {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+            width: 100px;
+        }
+        }
+        h2 {
+        color: #fff;
+        margin-bottom: 25px;
+        font-size: 18px;
+        }
+        p {
+        color: #efefef;
+        margin-bottom: 10px;
+        }
+    }
+    li {
+        a {
+        color: rgba(132, 132, 132, 0.872);
+        }
+    }
+    .red-social {
+        a {
+        display: inline-block;
+        text-decoration: none;
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        color: #fff;
+        margin-right: 10px;
+        background-color: rgba(132, 132, 132, 0.872);
+        text-align: center;
+        transition: all 300ms ease;
+        &:hover {
+            color: rgba(50, 50, 40, 0.872);
+        }
+        }
+    }
+    }
+
+    .grupo-2 {
+    background-color: rgba(132, 132, 132, 0.872);
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+
+    small {
+        font-size: 15px;
+    }
+    }
+
+    @media screen and (max-width: 800px) {
+    .grupo-1 {
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+    }
+    }
+}
