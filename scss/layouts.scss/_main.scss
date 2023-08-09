@@ -7,5 +7,29 @@ main {
     margin: 0 auto;
     padding: 0 1rem;
     margin-bottom: 3rem;
+    color: white;}
+    
 
-}
+.titulo1 {
+    background-color:#b30505;
+    display: flex;
+    margin-top: 50px;
+    font-size: 30px;
+    justify-content: center;
+    color: white;}
+
+.texto1 {
+    background-color: black;
+    margin-top: 50px;
+    font-weight: bolder;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: center;
+    color: white;}
+
+body { background-image: url(../..//images/Temporada\ 3\ Abril\ 2023.png); }
+
+.img-main { width: 550px; height: 550px;}
