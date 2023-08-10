@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*Reseteo global*/
 * {
   margin: 0;
@@ -130,19 +131,6 @@ main {
   color: white;
 }
 
-.texto1 {
-  background-color: black;
-  margin-top: 50px;
-  font-weight: bolder;
-  display: flex;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
-  justify-content: center;
-  color: white;
-}
-
 body {
   background-image: url(../..//images/Temporada\ 3\ Abril\ 2023.png);
 }
@@ -184,7 +172,22 @@ body {
   height: 320px;
 }
 
+.texto1 {
+  background-color: black;
+  margin-top: 50px;
+  font-weight: bolder;
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  justify-content: center;
+  font-size: 20px;
+  color: white;
+}
+
 .tarjetas-episodios {
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   align-content: space-between;
@@ -200,6 +203,113 @@ body {
   padding-bottom: 20px;
   padding-left: 20px;
   padding-right: 20px;
+}
+
+.texto4 {
+  background-color: black;
+  font-weight: lighter;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.video-container {
+  width: 50%; /* Puedes ajustar este valor según tus necesidades */
+  max-width: 800px; /* Puedes ajustar este valor según tus necesidades */
+  margin: 0 auto; /* Centrar el contenedor del video horizontalmente */
+}
+
+.video-container video {
+  width: 50%; /* El video ocupará todo el ancho del contenedor */
+  height: auto; /* La altura se ajustará automáticamente según el ancho */
+}
+
+.textoinfame {
+  background-color: black;
+  font-weight: bolder;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  padding-left: 35px;
+  font-size: 18px;
+  justify-content: space-between;
+  color: white;
+}
+
+.tituloinfame {
+  background-color: black;
+  margin-top: 5px;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  padding-left: 25px;
+  font-size: 25px;
+  justify-content: space-between;
+  color: #b30505;
+}
+
+.entrevistafilo {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.texto2 {
+  background-color: black;
+  margin-top: 150px;
+  font-weight: bolder;
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 30px;
+  justify-content: center;
+  color: white;
+}
+
+.filoicon {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  width: 75px;
+  height: 75px;
+}
+
+.entrevistalink {
+  display: flex;
+  gap: 76px;
+}
+
+.texto3 {
+  background-color: black;
+  margin-top: 50px;
+  font-weight: bolder;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  padding-left: 35px;
+  font-size: 20px;
+  justify-content: space-between;
+  color: white;
+}
+
+.textocontacto {
+  background-color: white;
+  font-weight: bolder;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 20px;
+  color: black;
+}
+
+.cajaformulario {
+  background-color: #b30505;
+  display: flex;
+  margin-top: 20px;
+  font-size: 20px;
+  justify-content: center;
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */

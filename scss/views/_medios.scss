@@ -1,0 +1,42 @@
+.entrevistafilo 
+{
+ display: flex;
+ justify-content: space-between;
+ align-content: center;
+}
+
+.texto2 {
+    background-color: black;
+    margin-top: 150px;
+    font-weight: bolder;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 30px;
+    justify-content: center;
+    color: white;}
+
+    .filoicon {
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        width: 75px; height: 75px;}
+
+.entrevistalink {
+    display: flex;
+    gap: 76px;
+
+}
+.texto3 {
+    background-color: black;
+    margin-top: 50px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    padding-left: 35px;
+    font-size: 20px;
+    justify-content: space-between;
+    color: white;}
