@@ -1,0 +1,31 @@
+.video-container {
+    width: 50%; /* Puedes ajustar este valor según tus necesidades */
+    max-width: 800px; /* Puedes ajustar este valor según tus necesidades */
+    margin: 0 auto; /* Centrar el contenedor del video horizontalmente */}
+
+.video-container video {
+        width: 50%; /* El video ocupará todo el ancho del contenedor */
+        height: auto; /* La altura se ajustará automáticamente según el ancho */}
+
+
+.textoinfame {
+        background-color: black;
+        font-weight: bolder;
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 20px;
+        padding-left: 35px;
+        font-size: 18px;
+        justify-content: space-between;
+        color: white;}
+
+.tituloinfame {
+        background-color: black;
+        margin-top: 5px;
+        font-weight: bolder;
+        display: flex;
+        justify-content: center;
+        padding-left: 25px;
+        font-size: 25px;
+        justify-content: space-between;
+        color: #b30505;}
