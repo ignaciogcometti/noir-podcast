@@ -11,13 +11,27 @@ main {
     
 
 .titulo1 {
-    background-color:#b30505;
-    display: flex;
-    margin-top: 50px;
-    font-size: 30px;
-    justify-content: center;
-    color: white;}
+    @include titulomasusado; }
 
-body { background-image: url(../..//images/Temporada\ 3\ Abril\ 2023.png); }
+body { background-image: url(../..//images/Temporada\ 3\ Abril\ 2023.png);
+
+
+        @media (max-width: $small-screen) {
+            font-size: 14px;
+            // Estilos específicos para pantallas pequeñas
+        }
+    
+        @media (min-width: $medium-screen) and (max-width: $large-screen) {
+            // Estilos específicos para pantallas medianas
+        }
+    
+        @media (min-width: $large-screen) and (max-width: $extra-large-screen) {
+            // Estilos específicos para pantallas grandes
+        }
+    
+        @media (min-width: $extra-large-screen) {
+            // Estilos específicos para pantallas extra grandes
+        }
+    }
 
 .img-main { width: 550px; height: 550px;}

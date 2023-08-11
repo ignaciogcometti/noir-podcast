@@ -1,3 +1,9 @@
 //variables
-$max-with:1200px;
-$font-family: 'Roboto', sans-serif;
+$fuentes-textos-mayoria: "mayorestextos", sans-serif;
+
+
+$small-screen: 576px;     // Dispositivos móviles en posición vertical
+$medium-screen: 768px;    // Tablets y dispositivos móviles en posición horizontal
+$large-screen: 992px;     // Pantallas de computadora portátil y tabletas en modo horizontal
+$extra-large-screen: 1200px; // Pantallas de computadoras de escritorio y pantallas grandes
+

@@ -1,32 +1,12 @@
-.bannerindex {
-    max-width: 100%;
-    & :hover{
-        transform: scale(1.1);
-        transition: all 5s;
-    }
-}
 
-.articuloi__img{
-    max-width: 100%;
-    & :hover {
-        transform: scale(1.1);
-        transition: all 5s; 
-        }
-    }
+.tituloinfame {
+transition: transform 0.6s ease;}
 
-.articulo__img{
-    max-width: 100%;
-    & :hover {
-        transform: scale(1.1);
-        transition: all 5s; 
-    }
-}
+.tituloinfame:hover {
+transform: scale(2.3);}
 
+.tituloinfame2 {
+transition: transform 0.6s ease;}
 
-.art-galeria{
-    transition: 3s;
-    & :hover{
-        width: 320px;
-        height: 320px;
-    }
-}
+.tituloinfame2:hover {
+transform: scale(2.3);}

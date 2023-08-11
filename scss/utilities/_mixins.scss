@@ -1,7 +1,14 @@
-//mixins sin parametros
 @mixin flex {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
+
+@mixin titulomasusado {
+background-color:#b30505;
+display: flex;
+margin-top: 50px;
+font-size: 30px;
+justify-content: center;
+color: white;}

@@ -39,29 +39,6 @@ body {
   color: rgba(50, 50, 40, 0.872);
 }
 
-.float {
-  position: fixed;
-  width: 60px;
-  height: 60px;
-  bottom: 40px;
-  right: 40px;
-  background-color: #fff;
-  color: #FFF;
-  border-radius: 50px;
-  text-align: center;
-  font-size: 30px;
-  box-shadow: 2px 2px 3px #999;
-  z-index: 100;
-}
-.float:hover {
-  text-decoration: none;
-  color: #25d366;
-  background-color: #25d366;
-}
-.float .my-float {
-  margin-top: 16px;
-}
-
 Header {
   background-color: #000107;
   margin: 0px;
@@ -133,48 +110,37 @@ main {
 body {
   background-image: url(../..//images/Temporada\ 3\ Abril\ 2023.png);
 }
-
+@media (max-width: 576px) {
+  body {
+    font-size: 14px;
+  }
+}
 .img-main {
   width: 550px;
   height: 550px;
 }
 
-.bannerindex {
-  max-width: 100%;
-}
-.bannerindex :hover {
-  transform: scale(1.1);
-  transition: all 5s;
+.tituloinfame {
+  transition: transform 0.6s ease;
 }
 
-.articuloi__img {
-  max-width: 100%;
-}
-.articuloi__img :hover {
-  transform: scale(1.1);
-  transition: all 5s;
+.tituloinfame:hover {
+  transform: scale(2.3);
 }
 
-.articulo__img {
-  max-width: 100%;
-}
-.articulo__img :hover {
-  transform: scale(1.1);
-  transition: all 5s;
+.tituloinfame2 {
+  transition: transform 0.6s ease;
 }
 
-.art-galeria {
-  transition: 3s;
-}
-.art-galeria :hover {
-  width: 320px;
-  height: 320px;
+.tituloinfame2:hover {
+  transform: scale(2.3);
 }
 
 .texto1 {
   background-color: black;
   margin-top: 50px;
   font-weight: bolder;
+  font-family: "mayorestextos";
   display: flex;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -190,7 +156,6 @@ body {
   justify-content: space-between;
   align-items: center;
   align-content: space-between;
-  flex-wrap: wrap;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
@@ -215,6 +180,15 @@ body {
 .gifinfames {
   height: 500px;
   width: 300px;
+}
+
+.apodoinfame {
+  display: flex;
+  flex-wrap: wrap;
+  color: #b30505;
+  background-color: black;
+  font-weight: bolder;
+  font-size: 18px;
 }
 
 .textoinfame {
