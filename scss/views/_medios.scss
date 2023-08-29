@@ -5,6 +5,11 @@
  align-content: center;
 }
 
+.filoimg {
+width: 850px; 
+}
+
+
 .texto2 {
     background-color: black;
     margin-top: 150px;
@@ -14,7 +19,7 @@
     padding-bottom: 20px;
     padding-left: 20px;
     padding-right: 20px;
-    font-size: 30px;
+    font-size: 28px;
     justify-content: center;
     color: white;}
 
@@ -40,3 +45,30 @@
     font-size: 20px;
     justify-content: space-between;
     color: white;}
+
+    .entrevistafilo  {
+        display: flex;
+        align-items: center;
+    
+        .texto2 {
+            flex: 1;
+            padding: 20px;
+        }
+    
+        .filofoto {
+            flex: 1;
+            padding: 20px;
+        }
+    }
+    
+    @media (max-width: 768px) {
+        .entrevistafilo {
+            flex-direction: column;
+    
+            .texto2,
+            .filofoto {
+                flex: none;
+                padding: 0;
+            }
+        }
+    }

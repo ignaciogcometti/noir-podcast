@@ -1,27 +1,39 @@
-.tarjetas-episodios {
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items:center;
-    align-content:space-between;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    text-align: center;
+
+.tarjetas-episodios2 {
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
     padding-top: 20px;
     margin-top: 50px;
-    margin-left: 100px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 .texto4 {
     background-color: black;
-    font-weight:lighter;
+    font-variant: small-caps;
     display: flex;
+    font-size: 23px;
     justify-content: center;
     color: white;}
 
+.texto5 {
+    background-color: black;
+    font-style:inherit;
+    display: flex;
+    font-size: 23px;
+    justify-content: center;
+    color: white;}
 
-
+    .tarjetas-episodios2 {
+            display: flex;
+            align-items: center; 
+            flex: 1;
+            padding: 20px;}
+            
+            @media (max-width: 768px) {
+            .tarjetas-episodios2 {
+                    flex-direction: column;         
+                    flex: none;
+                    padding: 0;}}
+    
