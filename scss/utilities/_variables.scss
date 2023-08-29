@@ -2,8 +2,33 @@
 $fuentes-textos-mayoria: "mayorestextos", sans-serif;
 
 
-$small-screen: 576px;     // Dispositivos móviles en posición vertical
-$medium-screen: 768px;    // Tablets y dispositivos móviles en posición horizontal
-$large-screen: 992px;     // Pantallas de computadora portátil y tabletas en modo horizontal
-$extra-large-screen: 1200px; // Pantallas de computadoras de escritorio y pantallas grandes
+$font-size-base: 16px;
+$body-background: #ffffff;
+// Otras variables y estilos base
 
+body {
+    font-size: $font-size-base;
+    background-color: $body-background;
+    // Estilos base
+
+    @media (max-width: 576px) {
+        font-size: 14px;
+        // Otros estilos para dispositivos móviles en posición vertical
+    }
+
+    @media (min-width: 577px) and (max-width: 768px) {
+        // Estilos para tablets y dispositivos móviles en posición horizontal
+    }
+
+    @media (min-width: 769px) and (max-width: 1024px) {
+        // Estilos para pantallas medianas
+    }
+
+    @media (min-width: 1025px) and (max-width: 1200px) {
+        // Estilos para pantallas grandes
+    }
+
+    @media (min-width: 1201px) {
+        // Estilos para pantallas extra grandes
+    }
+}

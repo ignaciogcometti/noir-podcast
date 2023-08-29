@@ -17,7 +17,9 @@
     width: 100px; height: 100px;}
     
   .enlace1 {
-    color: white;}
+    color: white;
+    text-decoration: underline;
+  }
   .enlace1 :hover{
     color: #b30505 ;} 
   .enlace1 {
@@ -26,7 +28,7 @@
   .navbar {
     background-color: #b30505;
     display: flex;
-    font-size: 25px;
+    font-size: 33px;
     justify-content: space-around;
     align-items: center;
     color: white;}
